@@ -19,7 +19,6 @@ missions...nearly killed me, but at least they kept my mind off everything. If I
 night - the pain, even for a second? This time, it can be different. It has to.
 """
 
-# Lista stop words
 stop_words = {"i", "a", "the", "are", "by", "is", "in", "of", "that", "it", "on", "this", "with", "for", "at", "as", "to"}
 def analiza_tekstu(tekst):
     akapity = tekst.strip().split("\n")
